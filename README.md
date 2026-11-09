@@ -9,6 +9,12 @@ Simulated multi site enterprise network in GNS3
 |HQ|30|192.168.30.0/24|
 |Branch 1|10|192.168.11.0/24|
 
+Tunnel between HQ and Branch 1
+|Device|IP Address|
+|:---|:---|
+|HQEdgeR1 - Tunnel0|172.16.1.1/30|
+|BranchEdgeR1 - Tunnel0|172.16.1.2/30|
+
 ## Device Inventory
 |Device|Platform|
 |:---|:---|
